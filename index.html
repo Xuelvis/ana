@@ -108,20 +108,34 @@
       margin-top: 10px;
     }
 
-    .instagram a {
-      display: inline-block;
-      margin-top: 10px;
+    /* NOVO: container dos botões */
+    .social-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+
+    .social-buttons a {
       text-decoration: none;
       color: #fff;
-      background: linear-gradient(45deg, #fd1d1d, #833ab4, #fcb045);
       padding: 12px 25px;
       border-radius: 30px;
       font-weight: 500;
       transition: opacity 0.3s;
     }
 
-    .instagram a:hover {
+    .social-buttons a:hover {
       opacity: 0.85;
+    }
+
+    .btn-instagram {
+      background: linear-gradient(45deg, #fd1d1d, #833ab4, #fcb045);
+    }
+
+    .btn-vsco {
+      background: linear-gradient(45deg, #111, #444);
     }
 
     footer {
@@ -163,43 +177,60 @@
     </div>
 
     <div class="card">
-      <h3 class="section-title">Por que o João deveria dar outra chance?</h3>
+      <h3 class="section-title">Um pouco mais sobre mim</h3>
 
       <div class="reasons">
         <div class="reason">
-          <strong>Conexão real</strong><br>
-          Nem toda relação nasce por acaso — algumas existem porque fazem sentido.
+          <strong>Empatia</strong><br>
+          A Ana sabe ouvir, compreender e se colocar no lugar do outro, o que
+          torna qualquer conversa com ela mais leve e sincera.
         </div>
         <div class="reason">
-          <strong>Carinho e cuidado</strong><br>
-          A Ana sempre demonstrou atenção, apoio e presença de verdade.
+          <strong>Autenticidade</strong><br>
+          A Ana é verdadeira consigo mesma, não tenta agradar por aparência e
+          valoriza relações genuínas.
         </div>
         <div class="reason">
-          <strong>Crescimento</strong><br>
-          O tempo traz maturidade, novas visões e chances de fazer melhor.
+          <strong>Responsabilidade</strong><br>
+          Ela leva a sério seus compromissos e demonstra maturidade ao lidar com
+          decisões importantes da vida.
         </div>
         <div class="reason">
-          <strong>História</strong><br>
-          O que foi vivido teve valor, e isso não se apaga com o tempo.
+          <strong>Carisma</strong><br>
+          Sua forma natural de agir faz com que as pessoas se sintam bem ao seu
+          redor, criando conexões espontâneas.
         </div>
       </div>
     </div>
 
+    <!-- ALTERADO: agora com dois botões -->
     <div class="card instagram">
-      <h3 class="section-title">Instagram</h3>
+      <h3 class="section-title">Redes sociais</h3>
       <p class="text">
         Para conhecer um pouco mais do dia a dia dela:
       </p>
-      <a href="https://www.instagram.com/palermo.anaaf/" target="_blank">
-        @palermo.anaaf
-      </a>
+
+      <div class="social-buttons">
+        <a class="btn-instagram"
+           href="https://www.instagram.com/palermo.anaaf/"
+           target="_blank">
+          Instagram
+        </a>
+
+        <a class="btn-vsco"
+           href="https://vsco.co/aninhaflaviiakk/gallery"
+           target="_blank">
+          VSCO
+        </a>
+      </div>
     </div>
 
   </div>
 
   <footer>
-    Volta Jão pfv
+    © 2026 Todos os direitos reservados
   </footer>
 
 </body>
 </html>
+
