@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana Palermo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-weight: 300;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    }
+
+    .profile {
+      text-align: center;
+    }
+
+    .profile img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 4px solid #ff9a9e;
+    }
+
+    .profile h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #ff6f91;
+    }
+
+    .text {
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+
+    .reasons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .reason {
+      background: #fff0f3;
+      padding: 20px;
+      border-radius: 15px;
+      transition: transform 0.3s;
+    }
+
+    .reason:hover {
+      transform: translateY(-5px);
+    }
+
+    .reason strong {
+      color: #ff4d6d;
+    }
+
+    .instagram {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .instagram a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #fff;
+      background: linear-gradient(45deg, #fd1d1d, #833ab4, #fcb045);
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: 500;
+      transition: opacity 0.3s;
+    }
+
+    .instagram a:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #fff;
+      opacity: 0.9;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .profile img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ana Palermo</h1>
+    <p>Uma pessoa que deixa marcas bonitas por onde passa</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card profile">
+      <img src="foto-ana.jpg" alt="Foto da Ana">
+      <h2>Ana Flávia</h2>
+      <p class="text">
+        A Ana é alguém que se destaca pelo carinho, pela leveza e pela forma
+        sincera com que vive os sentimentos. Quem a conhece sabe que ela é
+        intensa na medida certa e verdadeira em tudo o que faz.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="section-title">Por que vale a pena tentar de novo?</h3>
+
+      <div class="reasons">
+        <div class="reason">
+          <strong>Conexão real</strong><br>
+          Nem toda relação nasce por acaso — algumas existem porque fazem sentido.
+        </div>
+        <div class="reason">
+          <strong>Carinho e cuidado</strong><br>
+          A Ana sempre demonstrou atenção, apoio e presença de verdade.
+        </div>
+        <div class="reason">
+          <strong>Crescimento</strong><br>
+          O tempo traz maturidade, novas visões e chances de fazer melhor.
+        </div>
+        <div class="reason">
+          <strong>História</strong><br>
+          O que foi vivido teve valor, e isso não se apaga com o tempo.
+        </div>
+      </div>
+    </div>
+
+    <div class="card instagram">
+      <h3 class="section-title">Instagram</h3>
+      <p class="text">
+        Para conhecer um pouco mais do dia a dia dela:
+      </p>
+      <a href="https://www.instagram.com/palermo.anaaf/" target="_blank">
+        @palermo.anaaf
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+    Volta Jão pfv
+  </footer>
+
+</body>
+</html>
